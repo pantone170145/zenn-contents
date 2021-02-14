@@ -3,7 +3,7 @@ title: "AWS AmplifyでSSOアカウントを利用する"
 emoji: "🦔"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [aws, amplify]
-published: false
+published: true
 ---
 
 AWS AmplifyでAWS SSOアカウントを利用するやり方を紹介します
