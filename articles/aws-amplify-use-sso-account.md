@@ -34,23 +34,23 @@ $ aws configure sso
 :::message
 aws-sso-util configure profile sso-test
 Traceback (most recent call last):
-  File "/Users/KFMBA/.local/bin/aws-sso-util", line 8, in <module>
+  File "~/.local/bin/aws-sso-util", line 8, in <module>
     sys.exit(cli())
-  File "/Users/KFMBA/.local/pipx/venvs/aws-sso-util/lib/python3.9/site-packages/click/core.py", line 829, in __call__
+  File "~/.local/pipx/venvs/aws-sso-util/lib/python3.9/site-packages/click/core.py", line 829, in __call__
     return self.main(*args, **kwargs)
-  File "/Users/KFMBA/.local/pipx/venvs/aws-sso-util/lib/python3.9/site-packages/click/core.py", line 782, in main
+  File "~/.local/pipx/venvs/aws-sso-util/lib/python3.9/site-packages/click/core.py", line 782, in main
     rv = self.invoke(ctx)
-  File "/Users/KFMBA/.local/pipx/venvs/aws-sso-util/lib/python3.9/site-packages/click/core.py", line 1259, in invoke
+  File "~/.local/pipx/venvs/aws-sso-util/lib/python3.9/site-packages/click/core.py", line 1259, in invoke
     return _process_result(sub_ctx.command.invoke(sub_ctx))
-  File "/Users/KFMBA/.local/pipx/venvs/aws-sso-util/lib/python3.9/site-packages/click/core.py", line 1259, in invoke
+  File "~/.local/pipx/venvs/aws-sso-util/lib/python3.9/site-packages/click/core.py", line 1259, in invoke
     return _process_result(sub_ctx.command.invoke(sub_ctx))
-  File "/Users/KFMBA/.local/pipx/venvs/aws-sso-util/lib/python3.9/site-packages/click/core.py", line 1066, in invoke
+  File "~/.local/pipx/venvs/aws-sso-util/lib/python3.9/site-packages/click/core.py", line 1066, in invoke
     return ctx.invoke(self.callback, **ctx.params)
-  File "/Users/KFMBA/.local/pipx/venvs/aws-sso-util/lib/python3.9/site-packages/click/core.py", line 610, in invoke
+  File "~/.local/pipx/venvs/aws-sso-util/lib/python3.9/site-packages/click/core.py", line 610, in invoke
     return callback(*args, **kwargs)
-  File "/Users/KFMBA/.local/pipx/venvs/aws-sso-util/lib/python3.9/site-packages/aws_sso_util/configure_profile.py", line 88, in configure_profile
+  File "~/.local/pipx/venvs/aws-sso-util/lib/python3.9/site-packages/aws_sso_util/configure_profile.py", line 88, in configure_profile
     instance = get_instance(
-  File "/Users/KFMBA/.local/pipx/venvs/aws-sso-util/lib/python3.9/site-packages/aws_sso_util/utils.py", line 74, in get_instance
+  File "~/.local/pipx/venvs/aws-sso-util/lib/python3.9/site-packages/aws_sso_util/utils.py", line 74, in get_instance
     return instances[0]
 IndexError: list index out of range
 :::
